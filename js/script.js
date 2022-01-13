@@ -1,0 +1,133 @@
+$(document).ready(function(){
+    $(".slider-hold").slick({
+        infinite:true,
+        dots:false,
+        arrows:true,
+        nextArrow:'.right-arrow',
+        prevArrow:'.left-arrow',
+        speed:300,
+        slidesToShow:1,
+        slidesToScroll:1,
+        autoplay:true,
+    });
+});
+$(document).ready(function(){
+    $(".sell-slider").slick({
+        slidesToShow:6,
+        slidesToScroll:6,
+        infinite:true,
+        dots:false,
+        arrows:true,
+        nextArrow:'.right-arrow1',
+        prevArrow:'.left-arrow1',
+        speed:1000,
+    });
+});
+$(document).ready(function(){
+    $(".sell-slider1").slick({
+        slidesToShow:6,
+        slidesToScroll:6,
+        infinite:true,
+        dots:false,
+        arrows:true,
+        nextArrow:'.right-arrow2',
+        prevArrow:'.left-arrow2',
+        speed:1000,
+    });
+});
+$(document).ready(function(){
+    $(".kind-hold-1").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right-arrow3',
+        prevArrow:'.left-arrow3',
+        speed:1000,
+        slidesToShow:1,
+        slidesToScroll:1
+    });
+});
+$(document).ready(function(){
+    $(".kind-hold-2").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right-arrow6',
+        prevArrow:'.left-arrow6',
+        speed:1000,
+        slidesToShow:1,
+        slidesToScroll:1
+    });
+});
+$(document).ready(function(){
+    $(".sell-slider4").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right-arrow4',
+        prevArrow:'.left-arrow4',
+        speed:1000,
+        slidesToShow:6,
+        slidesToScroll:6
+    });
+});
+$(document).ready(function(){
+    $(".sell-slider5").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right-arrow5',
+        prevArrow:'.left-arrow5',
+        speed:1000,
+        slidesToShow:6,
+        slidesToScroll:6
+    });
+});
+$(document).ready(function(){
+    $(".sell-slider7").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right-arrow7',
+        prevArrow:'.left-arrow7',
+        speed:1000,
+        slidesToShow:6,
+        slidesToScroll:6
+    });
+});
+$(document).ready(function(){
+    $(".sell-slider8").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right-arrow8',
+        prevArrow:'.left-arrow8',
+        speed:1000,
+        slidesToShow:6,
+        slidesToScroll:6
+    });
+});
+$(document).ready(function(){
+    $(".sell-slider9").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right-arrow9',
+        prevArrow:'.left-arrow9',
+        speed:1000,
+        slidesToShow:6,
+        slidesToScroll:6
+    });
+});
+$(document).ready(function(){
+    $(".brow-grd").slick({
+        infinite:true,
+        arrows:true,
+        dots:false,
+        nextArrow:'.right',
+        prevArrow:'.left',
+        speed:1000,
+        slidesToShow:6,
+        slidesToScroll:4
+    });
+});
